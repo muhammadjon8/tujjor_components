@@ -35,7 +35,7 @@ const news = ref([
         <p>Новости</p>
       </div>
       <h2 class="text-5xl text-[#F7931F] font-medium py-3">Новости</h2>
-      <div class="flex justify-between gap-5">
+      <div class="md:flex justify-between gap-5">
         <div v-for="(item, index) in news" :key="index" class="border shadow-xl">
           <img :src="item.img" alt="" />
           <div class="px-3">

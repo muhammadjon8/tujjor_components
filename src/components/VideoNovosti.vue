@@ -4,8 +4,8 @@
   <div class="py-9">
     <div class="container">
       <h2 class="text-5xl text-[#F7931F] font-medium py-3">Видео новости</h2>
-      <div class="grid grid-cols-2 gap-3">
-        <div class="flex flex-col row-span-2">
+      <div class="md:grid grid-cols-2 gap-3">
+        <div class="md:flex flex-col row-span-2">
           <img src="/newsA.png" alt="" />
           <p class="text-2xl font-medium py-3">
             Российская компания Wildberries планирует выход на рынок Узбекистана
@@ -21,11 +21,11 @@
             </button>
           </div>
         </div>
-        <div class="flex gap-3">
-          <div class="w-1/2">
+        <div class="md:flex gap-3">
+          <div class="md:w-1/2">
             <img src="/newsB.png" alt="" class="w-full h-full"/>
           </div>
-          <div class="w-1/2">
+          <div class="md:w-1/2">
             <p class="text-2xl font-medium">
               В топ-10 российских онлайн-магазинов впервые вошла интернет-аптека
             </p>
@@ -42,11 +42,11 @@
             </div>
           </div>
         </div>
-        <div class="flex gap-3">
-          <div class="w-1/2">
+        <div class="md:flex gap-3">
+          <div class="md:w-1/2">
             <img src="/newsC.png" alt="" class="h-full"/>
           </div>
-          <div class="w-1/2">
+          <div class="md:w-1/2">
             <p class="text-2xl font-medium">
               Глава китайского Alibaba обсудил с Трампом создание рабочих мест в
               США
